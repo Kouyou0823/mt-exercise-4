@@ -48,6 +48,15 @@ Evaluate the model:
 
        ./scripts/evaluate.sh
 
+Analyze how different beam sizes affect BLEU scores and runtime using the following scripts after training and evaluating the model.
+
+       ./scripts/beam_bleu.sh
+
+Visualize the results:
+
+       python plot_beam.py
+
+
 ## For Windows (Command Prompt / PowerShell users)
 Manually create and activate a virtual environment:
 
