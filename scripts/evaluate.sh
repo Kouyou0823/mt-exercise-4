@@ -10,8 +10,8 @@ translations=$base/translations
 
 mkdir -p $translations
 
-src=?
-trg=?
+src=it
+trg=en
 
 
 num_threads=4
@@ -21,7 +21,7 @@ device=0
 
 SECONDS=0
 
-model_name=?
+model_name=bpe2k 
 
 echo "###############################################################################"
 echo "model_name $model_name"
